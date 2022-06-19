@@ -5,13 +5,24 @@ Features
 - Django
 
 Using the Application
-Outlined below are the steps to use the application
-- Create a virtual environment with the following command:
-virtualenv [virtual environment name]
-- Install Django with this command:
+
+Outlined below are the steps to use this application:
+
+- Step 1: Create a virtual environment with the following command:
+[virtual_environment package] [virtual environment name]
+
+
+- Step 2: Install Django with this command:
 pip install Django
--Install the modules with this command:
-pip install -r requirement
-- Start the application with the command below:
+
+
+- Step 3: Install the modules with this command:
+pip install -r requirement.txt
+
+
+- Step 4: Start the application with the command below:
 python manage.py runserver
-- Open on your web browser
+Note: Ensure you are in the same directory that has the manage.py file
+
+
+- Step 5: Open link on your web browser
